@@ -1,0 +1,53 @@
+#full-list > div {
+    margin-bottom: 3rem;
+}
+#full-list > .title {
+    color: #1569b3;
+    font-family: "Arial";
+    font-size: 1.5rem;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+#full-list > .filter {
+    text-align: right;
+}
+#full-list .list > div {
+    margin-bottom: 3rem;
+}
+#full-list .list .imagem {
+    height: 70%;
+    width: 100%;
+}
+#full-list .list .preco::before {
+    content: "R$ ";
+    font-size: 1rem;
+}
+#full-list .list .preco {
+    font-size: 1.5rem;
+}
+#full-list .list .nparcela::before {
+    content: "(";
+    font-size: 1.5rem;
+    padding-left: 2rem;
+}
+#full-list .list .nparcela::after {
+    content: " x ";
+}
+#full-list .list .vparcela::before {
+    content: "R$ ";
+    font-size: 0.8rem;
+}
+#full-list .list .vparcela::after {
+    content: ")";
+    font-size: 1.5rem;
+}
+button.sort {
+    background: #1569b3 url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAOUlEQVQ4jWNgGBSgoaHhP6kYwwBSAIYBpBiCVTOxhuDVTMgQojTjMoQkzeiGkKV51ABUQygygC4AAJYl9r47NAt1AAAAAElFTkSuQmCC") no-repeat scroll center center;
+    border-color: #f8981d;
+    border-radius: 6px;
+    font-size: 0;
+    float: right;
+    height: 2rem;
+    padding: 3px;
+    width: 2rem;
+}
